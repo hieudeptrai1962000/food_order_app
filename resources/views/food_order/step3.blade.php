@@ -83,6 +83,9 @@
             </div>
         </form>
     </div>
+@endsection
+
+@section('script')
     <script>
         $(document).ready(function () {
             var count = {{count($dishs)}};
@@ -151,4 +154,5 @@
             });
         });
     </script>
+
 @endsection

@@ -3,3 +3,4 @@
 <div class="container" style="margin: auto">
    @yield('order_form')
 </div>
+@yield('script')
